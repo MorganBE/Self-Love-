@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<title>Home Page</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<style>
+body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif}
+.w3-quarter img{margin-bottom: -6px; cursor: pointer}
+.w3-quarter img:hover{opacity: 0.6; transition: 0.3s}
+</style>
+<body class="w3-pale-blue">
+
+<!-- Sidebar/menu -->
+<nav class="w3-sidebar w3-bar-block w3-black w3-animate-right w3-top w3-text-pale-green w3-large" style="z-index:3;width:250px;font-weight:bold;display:none;right:0;" id="mySidebar">
+  <a href="javascript:void()" onclick="w3_close()" class="w3-bar-item w3-button w3-center w3-padding-32">CLOSE</a>
+  <a href="file:///C:/Users/GWC-3FGVG/Desktop/Test.html" onclick="w3_close()" class="w3-bar-item w3-button w3-center w3-padding-16">Influencers</a>
+  <a href="file:///C:/Users/GWC-3FGVG/Desktop/Inspire.html" onclick="w3_close()" class="w3-bar-item w3-button w3-center w3-padding-16">Inspiration</a>
+  <a href="file:///C:/Users/GWC-3FGVG/Desktop/Habits.html" onclick="w3_close()" class="w3-bar-item w3-button w3-center w3-padding-16">Habits</a>
+</nav>
+
+<!-- Top menu on small screens -->
+<header class="w3-container w3-top w3-amber w3-xlarge w3-padding-16">
+  <span class="w3-left w3-padding">Self Love</span>
+  <a href="javascript:void(0)" class="w3-right w3-button w3-white" onclick="w3_open()">☰</a>
+</header>
+
+<!-- Overlay effect when opening sidebar on small screens -->
+<div class="w3-overlay w3-animate-opacity" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
+
+<!-- !PAGE CONTENT! -->
+<div class="w3-main w3-content" style="max-width:1600px;margin-top:83px">
+
+  <!-- Photo grid -->
+  <div class="w3-row w3-grayscale-min">
+    <div class="w3-quarter">
+      <img src="https://static.wixstatic.com/media/33c251_4afb561b09f142388ba9f6e8ede85f13~mv2.jpg/v1/fill/w_817,h_1000,al_c,q_85/33c251_4afb561b09f142388ba9f6e8ede85f13~mv2.webp" style="width:100%" onclick="onClick(this)" alt="@nilegoodlad">
+        <img src="https://scontent-lga3-1.cdninstagram.com/vp/fa809db613067d41e16273387f59f8d1/5D468D15/t51.2885-15/sh0.08/e35/p750x750/56744733_365358944077026_755337830876620280_n.jpg?_nc_ht=scontent-lga3-1.cdninstagram.com&ig_cache_key=MjAyMjA2MTgyMjQzMzI1OTU3Nw%3D%3D.2" style="width:100%" onclick="onClick(this)" alt="@notoriouslydapper">
+
+
+   </div>
+
+   <div class="w3-quarter">
+      <img src="https://scontent-frx5-1.cdninstagram.com/vp/a19de498223458ca36d72509feb6d73a/5D786DCD/t51.2885-15/e35/p1080x1080/58409010_898764850483409_7863000758609545641_n.jpg?_nc_ht=scontent-frx5-1.cdninstagram.com&ig_cache_key=MjA0MDE2NzYwMDQ1OTA4Mjk1NA%3D%3D.2" style="width:100%" onclick="onClick(this)" alt="@zachmiko">
+      <img src="https://www.verywellmind.com/thmb/zczSSi_sEqLdIUGNOmbtCiZ3grM=/1350x1080/filters:no_upscale():max_bytes(150000):strip_icc()/Olakemi2-5b103cb6a474be0038241112.jpg" style="width:100%" onclick="onClick(this)" alt="@_olakemi_">
+
+    </div>
+
+    <div class="w3-quarter">
+      <img src="https://scontent-frt3-1.cdninstagram.com/vp/5d18cb4268755c5244e438cc81022a9c/5DC2F46D/t51.2885-15/sh0.08/e35/s640x640/64780206_153610835805611_4647506067985661109_n.jpg?_nc_ht=scontent-frt3-1.cdninstagram.com" style="width:100%" onclick="onClick(this)" alt="@lizzobeeating
+">
+    <img src="https://pbs.twimg.com/media/CbwNPZIVIAAatHl.jpg" style="width:100%" onclick="onClick(this)" alt="@aannggeellll">
+    </div>
+
+    <div class="w3-quarter">
+          <img src="https://scontent.cdninstagram.com/vp/31e537359a7c978ae85619bfab42696f/5DAC7784/t51.2885-15/e35/s480x480/64760620_557681264763161_5228882487048720048_n.jpg?_nc_ht=scontent-sea1-1.cdninstagram.com" style="width:100%" onclick="onClick(this)" alt="@slickwoods">
+      <img src="https://instagram.fclj1-1.fna.fbcdn.net/vp/fba8af7eea6a4ca0f974ec60bdc60d6f/5D56FD31/t51.2885-15/e35/58409024_139292000533917_2056279862805465554_n.jpg?_nc_ht=instagram.fclj1-1.fna.fbcdn.net" style="width:100% "  onclick="onClick(this)" alt="@lifewithmicah">
+
+    </div>
+  </div>
+
+  <!-- Pagination
+  <div class="w3-center w3-padding-32">
+    <div class="w3-bar">
+      <a href="" class="w3-bar-item w3-black w3-button">1</a>
+      <a href="" class="w3-bar-item w3-button w3-hover-black">2</a>
+      <a href="#" class="w3-bar-item w3-button w3-hover-black">3</a>
+      <a href="#" class="w3-bar-item w3-button w3-hover-black">4</a>
+
+    </div>
+  </div>-->
+
+  <!-- Modal for full size images on click-->
+  <div id="modal01" class="w3-modal w3-black" style="padding-top:0" onclick="this.style.display='none'">
+    <span class="w3-button w3-black w3-xlarge w3-display-topright">×</span>
+    <div class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-64">
+      <img id="img01" class="w3-image">
+      <p id="caption"></p>
+    </div>
+  </div>
+
+  <!-- body positivity section -->
+  <div class="w3-container w3-pale-green w3-center w3-text-black w3-padding-32" id="about">
+    <h4><b>What is body postivity?</b></h4>
+    <img src="https://66.media.tumblr.com/987348bf4250bf21976d10c39ab0a7e8/tumblr_ox5u9xQZTU1rs9omco1_400.png" alt="Me" class="w3-image w3-padding-32" width="600" height="650">
+    <div class="w3-content w3-justify" style="max-width:600px">
+      <p>Body postivity not only revolves around a person's appearance but their emotional mindset as well.<br>
+        When looking in the mirror others may see themsevles as ugly, fat, skinny, or anything of that sort <br>
+        from expirences with others. Including bullies, or even family and friends.Our project is dedicated to helping those that feel<br>
+        that they are not worthy or uncomfortable in their own skin.We as a whole should strive to uplift one another <br>
+        instead of putting eachother down based on what we see on social platforms.<br>
+      </p>
+      <p></p>
+
+      <h4 class="w3-padding-16">Your Truth</h4>
+      <div class="w3-row-padding" style="margin:0 -16px">
+        <div class="w3-half w3-margin-bottom">
+          <ul class="w3-ul w3-white w3-center">
+            <li class="w3-pale-blue w3-xlarge w3-padding-32">I...</li>
+            <li class="w3-padding-16">Beautiful</li>
+            <li class="w3-padding-16">Different</li>
+            <li class="w3-padding-16">Unique</li>
+            <li class="w3-padding-16">Fierce</li>
+            <li class="w3-padding-16">Breathtaking
+            </li>
+          </ul>
+        </div>
+
+        <div class="w3-half">
+          <ul class="w3-ul w3-white w3-center">
+            <li class="w3-pale-blue w3-xlarge w3-padding-32"> Am...</li>
+            <li class="w3-padding-16">Spunky</li>
+            <li class="w3-padding-16">Alluring</li>
+            <li class="w3-padding-16">One of a kind</li>
+            <li class="w3-padding-16">Brillant</li>
+            <li class="w3-padding-16">My own person
+
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- Footer -->
+  <footer class="w3-container w3-padding-32 w3-light-blue">
+    <div class="w3-row-padding">
+      <div class="w3-third">
+        <center>
+        <h3>Morgan Brown</h3>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTr9lCmdFpR5eCg6nF7y1tT-gT6pD_utDR0BbKYA24Xtrz5MhMd">
+        <p>I am 17 years old born in Cartersville Ga. I attend Centennial High School and I am in the class of 2020.For my future I plan to purse the field of Computer Science while living my best life as I get there </p>
+      </div>
+
+      <div class="w3-third">
+        <center>
+        <h3>Seraiah Chadwick</h3>
+        <img src="Seraiah.PNG" style= "width:45%">
+      <p>   I am 16 years old born in Jackson, Mississippi. I go to Johns Creek High School and I am in the class of 2021. I play basketball and love art, but plan to pursue a career that involves both Computer Science and art. I am nervouse for what lies ahead but excited to face it the best I can. </p>
+      </div>
+
+      <div class="w3-third">
+        <center>
+        <h3>Khushi Joshi</h3>
+        <center>
+        <img src="Khushi.PNG" style= "width:40%">
+        <p> I am 17 years old and i was born in Memphis,Tenessee.I go to Lambert High School and i in the class of 2020! I plan to either major is MIS(management information systems) or do both Computer Science and business!  </p>
+      </div>
+    </div>
+  </footer>
+
+
+
+<!-- End page content -->
+</div>
+
+<script>
+// Script to open and close sidebar
+function w3_open() {
+  document.getElementById("mySidebar").style.display = "block";
+  document.getElementById("myOverlay").style.display = "block";
+}
+
+function w3_close() {
+  document.getElementById("mySidebar").style.display = "none";
+  document.getElementById("myOverlay").style.display = "none";
+}
+
+// Modal Image Gallery
+function onClick(element) {
+  document.getElementById("img01").src = element.src;
+  document.getElementById("modal01").style.display = "block";
+  var captionText = document.getElementById("caption");
+  captionText.innerHTML = element.alt;
+}
+
+</script>
+
+
+</body>
+</html>

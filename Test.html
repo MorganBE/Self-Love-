@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html>
+<title>Influencers</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<body class="w3-content w3-light-green" style="max-width:1200px">
+<style>
+html,body,h1,h2,h3,h4 {font-family:"Lato", "sans-serif";}
+.mySlides {display:none;}
+.w3-tag, .fa {cursor:pointer;}
+.w3-tag {height:15px;width:15px;padding:0;margin-top:6px;}
+</style>
+<body>
+<div class="w3-content" style="max-width:1000px;margin-top:80px;margin-bottom:80px;margin-left:-159px;">
+  <nav class="w3-sidebar w3-bar-block w3-black w3-animate-right w3-top w3-text-pale-green w3-large" style="z-index:3;width:250px;font-weight:bold;display:none;right:0;" id="mySidebar">
+    <a href="javascript:void()" onclick="w3_close()" class="w3-bar-item w3-button w3-center w3-padding-32">CLOSE</a>
+    <a href="file:///C:/Users/GWC-3FGVG/Desktop/WIBP.html" onclick="w3_close()" class="w3-bar-item w3-button w3-center w3-padding-16">HomePage</a>
+    <a href="file:///C:/Users/GWC-3FGVG/Desktop/Inspire.html" onclick="w3_close()" class="w3-bar-item w3-button w3-center w3-padding-16">Inspiration</a>
+    <a href="file:///C:/Users/GWC-3FGVG/Desktop/Habits.html" onclick="w3_close()" class="w3-bar-item w3-button w3-center w3-padding-16">Habits</a>
+  </nav>
+
+  <header class="w3-container w3-top w3-amber w3-xlarge w3-padding-16">
+    <span class="w3-left w3-padding">Self Love</span>
+    <a href="javascript:void(0)" class="w3-right w3-button w3-white" onclick="w3_open()">☰</a>
+  </header>
+
+  <!-- Overlay effect when opening sidebar on small screens -->
+  <div class="w3-overlay w3-animate-opacity" onclick="w3_close()" style="cursor:pointer;" title="close side menu" id="myOverlay"></div>
+
+  <div class="w3-main" style="margin-left: 0px;"></div>
+
+    <div class="w3-hide-large" style="margin-top:83px;"></div>
+    </div>
+    <div class="w3-content" style="max-width:1000px;margin-top:80px;margin-bottom:80px;">
+
+
+<!-- Links (sit on top) -->
+<!-- <div class="w3-center">
+  <div class="w3-row w3-large w3-lime">
+    <div class="w3-col s3">
+      <a href="#" class="w3-button w3-block">Frida Kahlo</a>
+    </div>
+    <div class="w3-col s3">
+      <a href="#plans" class="w3-button w3-block">Ashley Graham</a>
+    </div>
+    <div class="w3-col s3">
+      <a href="#about" class="w3-button w3-block">Nick Vujicic</a>
+    </div>
+    <div class="w3-col s3">
+      <a href="#contact" class="w3-button w3-block">Stephen Hawking</a>
+    </div>
+  </div>
+</div> -->
+
+<!-- Content -->
+
+
+  <div class="w3-panel">
+    <h1>Influence is everything<b></b></h1>
+
+  </div>
+
+  <!-- Slideshow -->
+  <div class="w3-container">
+    <div class="w3-display-container mySlides">
+      <center><img src="http://cdn.theeverygirl.com/wp-content/uploads/2015/11/FridaKahloHomeMedium_52028129_0.jpg" style="width:50%"></center>
+      <div class="w3-display-topleft w3-container w3-padding-32">
+        <span class="w3-light-blue w3-padding-large w3-animate-bottom">Frida Kahlo</span>
+      </div>
+    </div>
+    <div class="w3-display-container mySlides">
+      <center> <img src="https://thumbor.forbes.com/thumbor/960x0/https%3A%2F%2Fspecials-images.forbesimg.com%2Fimageserve%2F845747642%2F960x0.jpg%3Ffit%3Dscale" style="width:50%"></center>
+      <div class="w3-display-topleft w3-container w3-padding-32">
+        <span class="w3-light-blue w3-padding-large w3-animate-bottom">Ashley Graham</span>
+      </div>
+    </div>
+    <div class="w3-display-container mySlides">
+      <center><img src="https://succeedfeed.com/wp-content/uploads/2018/05/67-nick-vujicic-quotes.jpg" style="width:50%"></center>
+      <div class="w3-display-topleft w3-container w3-padding-32">
+        <span class="w3-light-blue w3-padding-large w3-animate-bottom">Nick Vujicic</span>
+      </div>
+    </div>
+    <div class="w3-display-container mySlides">
+      <center><img src="https://media.vanityfair.com/photos/5aaaa8d14807db55e0503de5/16:9/w_1280,c_limit/Stephen-Hawking.jpg" style="width:50%"></center>
+      <div class="w3-display-topleft w3-container w3-padding-32">
+        <span class="w3-light-blue w3-padding-large w3-animate-bottom">Stephen Hawking</span>
+      </div>
+    </div>
+
+    <!-- Slideshow next/previous buttons -->
+    <div class="w3-container w3-lime w3-padding w3-xlarge">
+      <div class="w3-left" onclick="plusDivs(-1)"><i class="fa fa-arrow-circle-left w3-hover-text-teal"></i></div>
+      <div class="w3-right" onclick="plusDivs(1)"><i class="fa fa-arrow-circle-right w3-hover-text-teal"></i></div>
+
+      <div class="w3-center">
+        <span class="w3-tag demodots w3-border w3-transparent w3-hover-white" onclick="currentDiv(1)"></span>
+        <span class="w3-tag demodots w3-border w3-transparent w3-hover-white" onclick="currentDiv(2)"></span>
+        <span class="w3-tag demodots w3-border w3-transparent w3-hover-white" onclick="currentDiv(3)"></span>
+      </div>
+    </div>
+  </div>
+
+  <!-- Grid1 -->
+  <div class="w3-row w3-container">
+    <div class="w3-center w3-padding-64">
+      <span class="w3-xlarge w3-bottombar w3-border-light-blue w3-padding-16">Frida Kahlo</span>
+    </div>
+    <div class="w3-col l3 m6 w3-pale-yellow w3-container w3-padding-16">
+      <h3>Occupation</h3>
+      <p>Frida Kahlo born July 6, 1907 was a nature inspired artist located in Coyoacon , Mexico City.Even though she didn't posse the ablitiy to walk and roam freely , she used her mind and hands to bring her thoughts to life.</p>
+    </div>
+
+    <div class="w3-col l3 m6 w3-khaki w3-container w3-padding-16">
+      <h3>Some of her work</h3>
+      <p><img src="http://www.artyfactory.com/art_appreciation/portraits/frida_kahlo/self_portrait_1.jpg" style="width:33%">
+      <img src="https://www.dailyartmagazine.com/wp-content/uploads/2017/08/24d7a5b84eb8771e8a1c1dcc25e3f77e.jpg"style="width:32%">
+      <img src="https://assets-production.mcachicago.org/media/attachments/W1siZiIsIjIwMTcvMTAvMjMvMTMvNTMvZDAwMWNmOGEtMGQ2MC00ODU5LThkZWUtNTEwZDQ4ZWRkMmZmIl0sWyJwIiwidGh1bWIiLCIxMjAweD4iLHt9XV0/02kahlo.jpg?sha=3f82b8bc05faa99a"style="width:31%"
+      <p>_
+      <br>_
+      <br>_
+      </p>
+
+    </div>
+
+    <div class="w3-col l3 m6 w3-yellow w3-container w3-padding-16">
+      <h3>Background Info</h3>
+      <p>Frida suffered from polio during her childhood not only did this cause physical issues furthering into her life<br>
+      but also was demonstrated into her artwork.(She had Spina bifida as well affecting her right leg)
+    </p>
+    </div>
+
+    <div class="w3-col l3 m6 w3-amber w3-container w3-padding-16">
+      <h3>Quotes of Her's</h3>
+      <p>"Feet, what do I need you for when I have wings to fly?"<br>
+      "I paint self portraits because I am so often alone, because I am <br>
+      the person I know best." <br>
+      "I tried to drown my sorrows but the bastards learned how to swim ."
+      </p>
+    </div>
+  </div>
+<!--Grid2-->
+<div class="w3-row w3-container">
+  <div class="w3-center w3-padding-64">
+    <span class="w3-xlarge w3-bottombar w3-border-light-blue w3-padding-16">Ashley Graham</span>
+  </div>
+  <div class="w3-col l3 m6 w3-pale-blue w3-container w3-padding-16">
+    <h3>Occupation</h3>
+    <p>Ashley Graham is a <br>.Plus size model,<br>.Actor, <br>. Body Posivity activist.<br>.Born in Lincoln Nebraska<br>_
+  </p>
+  </div>
+
+  <div class="w3-col l3 m6 w3-light-blue w3-container w3-padding-16">
+    <h3>Some of her work</h3>
+    <p><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/Ashley_Graham_2018.png/220px-Ashley_Graham_2018.png" style="width:33%">
+    <img src="https://cdn-s3.si.com/s3fs-public/images/ashley-graham-casting-9.jpg"style="width:32%">
+    <img src="https://pixel.nymag.com/imgs/fashion/daily/2017/08/04/graham/04-ashley-graham-extra-1.nocrop.w1024.h2147483647.2x.jpg"style="width:31%"
+    <br>_
+    <br>
+
+    <br>
+    </p>
+
+  </div>
+
+  <div class="w3-col l3 m6 w3-cyan w3-container w3-padding-16">
+    <h3>Background Info</h3>
+    <p>In 2016 Ashley became the first size 16 model to be featured on the cover of Sports Illustrated Swimsuit issue.
+      This was described as bringing size acceptance mainstream.
+  </p>
+  </div>
+
+  <div class="w3-col l3 m6 w3-blue w3-container w3-padding-16">
+    <h3>Words of Encourgement</h3>
+    <div class="w3-third w3-center w3-large w3-grey w3-text-white" style="height:120px">
+    <iframe width="225" height="135" src="https://www.youtube.com/embed/fdLsFFw9X6Q" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+    </div>
+  </div>
+</div>
+
+<!--Grid3-->
+<div class="w3-row w3-container">
+  <div class="w3-center w3-padding-64">
+    <span class="w3-xlarge w3-bottombar w3-border-light-blue w3-padding-16">Nick Vujicic</span>
+  </div>
+  <div class="w3-col l3 m6 w3-pale-green w3-container w3-padding-16">
+    <h3>Occupation</h3>
+    <p>Nick Vujicic is a <br>.Christian evangelist,<br>.Author,<br>.Motivational speaker,<br>.Born in Melbourne, Australia<br>_
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+  </p>
+  </div>
+
+  <div class="w3-col l3 m6 w3-lime w3-container w3-padding-16">
+    <h3>Some of his work</h3>
+    <p><img src="https://images.penguinrandomhouse.com/cover/9781601426215" style="width:40%">
+    <img src="https://www.attitudeisaltitude.com/wp-content/uploads/2015/11/unsupportable.jpg"style="width:40%">
+    <img src="https://images.penguinrandomhouse.com/cover/9781601427823"style="width:40%">
+    <img src="https://images-na.ssl-images-amazon.com/images/I/91l%2B4n9jHhL.jpg"style="width:40%"
+    <p><br>_
+    <br>
+    <br>
+    <br>
+    </p>
+
+  </div>
+
+  <div class="w3-col l3 m6 w3-green w3-container w3-padding-16">
+    <h3>Background Info</h3>
+    <p>Nick was born with tetra-amelia syndrome, meaning he has no arms or legs.
+      He became one of the first physically disabbled students to attend a mainstream school when the laws preventing that were changed.
+      He faced many hardships due to his appearance, including depression. But when his mother showed him a newspaper article about a man dealing with a severe disability,
+      he began to embrace his lack of limbs and inspire others.
+  </p>
+  </div>
+
+  <div class="w3-col l3 m6 w3-teal w3-container w3-padding-16">
+    <h3>Words of Encourgement</h3>
+    <div class="w3-third w3-center w3-large w3-text-white" style="height:300px">
+  <iframe width="225" height="135" src="https://www.youtube.com/embed/tJnJ_fTYofQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  <p><br>
+  </p>
+    </div>
+  </div>
+</div>
+
+<!--Grid4-->
+<div class="w3-row w3-container">
+  <div class="w3-center w3-padding-64">
+    <span class="w3-xlarge w3-bottombar w3-border-light-blue w3-padding-16">Stephan Hawking</span>
+  </div>
+  <div class="w3-col l3 m6 w3-pale-yellow w3-container w3-padding-16">
+    <h3>Occupation</h3>
+    <p></p>
+    <p>Stephan Hawking was an English theoretical physicist, cosmologist, and author who was director of research at the Centre for Theoretical Cosmology at the University of Cambridge. He was born on January 8, 1942 in Oxford, United Kingdom.</p>
+    <p><br>
+    <br>
+    <br>
+    <br>
+  </div>
+
+  <div class="w3-col l3 m6 w3-khaki w3-container w3-padding-16"; height:150px;>
+    <h3>Some of his work</h3>
+    <br>
+    <p><img src="https://images.penguinrandomhouse.com/cover/9780553384666" style="width:33%">
+    <img src="https://images-na.ssl-images-amazon.com/images/I/A1xkFZX5k-L.jpg"style="width:32%">
+    <img src="https://rukminim1.flixcart.com/image/612/612/book/9/3/9/the-theory-of-everything-with-cd-original-imadbgf9kuz7szfa.jpeg?q=70"style="width:31%"
+    <p><br>
+    </br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <p>
+    <p>
+    </br>
+    </p>
+  </div>
+
+  <div class="w3-col l3 m6 w3-yellow w3-container w3-padding-16">
+    <h3>Background Info</h3>
+    <p> Stephan Hawking performed groundbreaking work in physics and cosmology, and whose books helped to make science accessible to everyone. At age 21, while studying at the University of Cambridge, he was diagnosed with amyotrophic lateral sclerosis (ALS). Part of his life story was depicted in the 2014 film The Theory of Everything. Stephan Hawking died on March 14th, 2018
+  </p>
+  </div>
+
+  <div class="w3-col l3 m6 w3-amber w3-container w3-padding-16">
+    <h3>Quotes of His </h3>
+    <p>"Intelligence is the ability to adapt to change."<br>
+    "We are all now connected by the Internet, like neurons in a giant brain." <br>
+    "However difficult life may seem, there is always something you can do and succeed at."
+    "Work gives you meaning and purpose and life is empty without it."
+    "People won't have time for you if you are always angry or complaining."
+    </p>
+    <br>
+  </div>
+</div>
+
+
+<script>
+// Slideshow
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function currentDiv(n) {
+  showDivs(slideIndex = n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("demodots");
+  if (n > x.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = x.length} ;
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" w3-white", "");
+  }
+  x[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " w3-white";
+}
+
+// Script to open and close sidebar
+function w3_open() {
+  document.getElementById("mySidebar").style.display = "block";
+  document.getElementById("myOverlay").style.display = "block";
+}
+
+function w3_close() {
+  document.getElementById("mySidebar").style.display = "none";
+  document.getElementById("myOverlay").style.display = "none";
+}
+
+// Modal Image Gallery
+function onClick(element) {
+  document.getElementById("img01").src = element.src;
+  document.getElementById("modal01").style.display = "block";
+  var captionText = document.getElementById("caption");
+  captionText.innerHTML = element.alt;
+}
+
+</script>
+
+
+</body>
+</html>

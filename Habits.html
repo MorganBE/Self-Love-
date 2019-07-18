@@ -1,0 +1,370 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<header class="w3-container w3-top w3-purple w3-xlarge w3-padding-16">
+  <span class="w3-left w3-padding">Self Love</span>
+  <a href="javascript:void(0)" class="w3-right w3-button w3-white" onclick="w3_open()">☰</a>
+</header>
+<style>
+body {
+    background-color:#8ad1d1;
+}
+* {
+  box-sizing: border-box;
+}
+
+/* Create four equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 25%;
+  padding: 10px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 900px) {
+  .column  {
+    width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column  {
+    width: 100%;
+  }
+}
+<style>
+div {
+  align:center;
+}
+body {
+  margin: 0;
+  min-width: 250px;
+}
+
+/* Include the padding and border in an element's total width and height */
+* {
+  box-sizing: border-box;
+}
+
+/* Remove margins and padding from the list */
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+/* Style the list items */
+ul li {
+  cursor: pointer;
+  position: relative;
+  padding: 12px 8px 12px 40px;
+  list-style-type: none;
+  background: #eee;
+  font-size: 18px;
+  transition: 0.2s;
+
+  /* make the list items unselectable */
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* Set all odd list items to a different color (zebra-stripes) */
+ul li:nth-child(odd) {
+  background: #f9f9f9;
+}
+
+/* Darker background-color on hover */
+ul li:hover {
+  background: #ddd;
+}
+
+/* When clicked on, add a background color and strike out text */
+ul li.checked {
+  background: #888;
+  color: #fff;
+  text-decoration: line-through;
+}
+
+/* Add a "checked" mark when clicked on */
+ul li.checked::before {
+  content: '';
+  position: absolute;
+  border-color: #fff;
+  border-style: solid;
+  border-width: 0 2px 2px 0;
+  top: 10px;
+  left: 16px;
+  transform: rotate(45deg);
+  height: 15px;
+  width: 7px;
+}
+
+/* Style the close button */
+.close {
+  position: absolute;
+  right: 0;
+  top: 0;
+  padding: 12px 16px 12px 16px;
+}
+
+.close:hover {
+  background-color: #f44336;
+  color: white;
+}
+
+/* Style the header */
+.header {
+  background-color: #f29696;
+  padding: 30px 40px;
+  color: white;
+  text-align: center;
+}
+
+/* Clear floats after the header */
+.header:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Style the input */
+input {
+  margin: 0;
+  border: none;
+  border-radius: 0;
+  width: 75%;
+  padding: 10px;
+  float: left;
+  font-size: 16px;
+}
+
+/* Style the "Add" button */
+.addBtn {
+  padding: 10px;
+  width: 25%;
+  background: #d9d9d9;
+  color: #555;
+  float: left;
+  text-align: center;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s;
+  border-radius: 0;
+}
+
+.addBtn:hover {
+  background-color: #bbb;
+}
+</style>
+
+
+</head>
+<body>
+<!-- <center>
+<h1> <p style="font-family:Verdana; color:black; font-size: 30px;"> HEALTHY HABITS </p></h1> -->
+<p>
+</p>
+<center>
+  <p><br>
+  </br>
+  <br>
+  <br>
+  </br>
+  </p>
+  <div class="w3-center w3-padding-64">
+    <span class="w3-jumbo w3-bottombar w3-border-purple w3-padding-16">Healthy Habits</span>
+  </div>
+<p> <p style="font-family:Verdana; color:black; font-size: 20px;"> We all struggle with self-esteem issues here and there, but if you want to have a consistent positive relationship with yourself, you might need to put in a little work to get there. Try adopting these habits that help encourage regular self-love.</p>
+<p><br>
+<br>
+<br>
+</br>
+</p>
+<div class="row">
+  <div class="column" style="background-color:#e8d29e; height:150px;">
+  <h2>STOP COMPARING YOURSELF TO OTHERS </h2>
+  </div>
+  <div class="column" style="background-color:#9ee8b5;height:150px;">
+  <h2>PUT YOURSELF FIRST</h2>
+  </div>
+  <div class="column" style="background-color:#9ee8e1;height:150px;">
+  <h2>BE KIND TO YOURSELF               </h2>
+  </div>
+  <div class="column" style="background-color:#9ed9e8;height:150px;">
+  <h2>PROCESS YOUR FEARS               </h2>
+  </div>
+</div>
+
+<div class="row">
+  <div class="column" style="background-color:#9eb2e8; height:150px;">
+  <h2>BE BOLD, BE YOURSELF</h2>
+  </div>
+  <div class="column" style="background-color:#b09ee8;height:150px;">
+  <h2>DON'T STRESS ABOUT OTHER PEOPLE'S OPINION</h2>
+  </div>
+  <div class="column" style="background-color:#d19ee8;height:150px;">
+  <h2>LOOKS DON'T MEAN EVERYTHING</h2>
+  </div>
+  <div class="column" style="background-color:#e89ee3;height:150px;">
+  <h2>FORGIVE YOURSELF</h2>
+  </div>
+</div>
+
+<div class="row">
+  <div class="column" style="background-color:#e89ed9; height:150px;">
+  <h2>FOCUS ON YOUR SELF-TALK</h2>
+  </div>
+  <div class="column" style="background-color:#e89ebf;height:150px;">
+  <h2>DO MORE THINGS YOU LOVE</h2>
+  </div>
+  <div class="column" style="background-color:#e89e9e;height:150px;">
+  <h2>PRACTICE MINDFULLNESS</h2>
+  </div>
+  <div class="column" style="background-color:#e8c79e;height:150px;">
+  <h2>RESPECT YOUR BODY</h2>
+  </div>
+</div>
+
+<div class="w3-content" style="max-width:1000px;margin-top:80px;margin-bottom:80px;margin-left:-159px;">
+  <nav class="w3-sidebar w3-bar-block w3-purple w3-animate-right w3-top w3-text-pale-green w3-large" style="z-index:3;width:250px;font-weight:bold;display:none;right:0;" id="mySidebar">
+    <a href="javascript:void()" onclick="w3_close()" class="w3-bar-item w3-button w3-center w3-padding-32">CLOSE</a>
+    <a href="file:///C:/Users/GWC-3FGVG/Desktop/Test.html" onclick="w3_close()" class="w3-bar-item w3-button w3-center w3-padding-16">Influencers</a>
+    <a href="file:///C:/Users/GWC-3FGVG/Desktop/Inspire.html" onclick="w3_close()" class="w3-bar-item w3-button w3-center w3-padding-16">Inspiration</a>
+    <a href="file:///C:/Users/GWC-3FGVG/Desktop/WIBP.html" onclick="w3_close()" class="w3-bar-item w3-button w3-center w3-padding-16">Homepage</a>
+  </nav>
+</div>
+  <!-- <header class="w3-container w3-top w3-amber w3-xlarge w3-padding-16">
+    <span class="w3-left w3-padding">Self Love</span>
+    <a href="javascript:void(0)" class="w3-right w3-button w3-white w3-padding" style="margin-right: 20px;" onclick="w3_open()">☰</a>
+  </header> -->
+
+
+
+<!-- </body>
+</html>
+
+
+<!DOCTYPE html>
+<html> -->
+<!-- <head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+</head> -->
+<!-- <body style="margin-left:50px;"> -->
+
+<p><br>
+</br>
+<br>
+<br>
+</br>
+</p>
+
+<div style="">
+  <div id="myDIV" class="header" >
+    <h2 style="margin:5px">Did your practice your healthy habits?</h2>
+    <input type="text" id="myInput" placeholder="Add more habits...">
+    <span onclick="newElement()" class="addBtn">Add</span>
+  </div>
+
+  <ul id="myUL">
+    <li> Did something i loved </li>
+    <li class="checked">Practiced Self Love </li>
+    <li>Didn't compare myself to someone else</li>
+    <li>Tried something new</li>
+    <li>Relaxed and took care of myself</li>
+    <li>Remained Positive</li>
+  </ul>
+</div>
+
+
+<script>
+// Create a "close" button and append it to each list item
+var myNodelist = document.getElementsByTagName("LI");
+var i;
+for (i = 0; i < myNodelist.length; i++) {
+  var span = document.createElement("SPAN");
+  var txt = document.createTextNode("\u00D7");
+  span.className = "close";
+  span.appendChild(txt);
+  myNodelist[i].appendChild(span);
+}
+
+// Click on a close button to hide the current list item
+var close = document.getElementsByClassName("close");
+var i;
+for (i = 0; i < close.length; i++) {
+  close[i].onclick = function() {
+    var div = this.parentElement;
+    div.style.display = "none";
+  }
+}
+
+// Add a "checked" symbol when clicking on a list item
+var list = document.querySelector('ul');
+list.addEventListener('click', function(ev) {
+  if (ev.target.tagName === 'LI') {
+    ev.target.classList.toggle('checked');
+  }
+}, false);
+
+// Create a new list item when clicking on the "Add" button
+function newElement() {
+  var li = document.createElement("li");
+  var inputValue = document.getElementById("myInput").value;
+  var t = document.createTextNode(inputValue);
+  li.appendChild(t);
+  if (inputValue === '') {
+    alert("You must write something!");
+  } else {
+    document.getElementById("myUL").appendChild(li);
+  }
+  document.getElementById("myInput").value = "";
+
+  var span = document.createElement("SPAN");
+  var txt = document.createTextNode("\u00D7");
+  span.className = "close";
+  span.appendChild(txt);
+  li.appendChild(span);
+
+  for (i = 0; i < close.length; i++) {
+    close[i].onclick = function() {
+      var div = this.parentElement;
+      div.style.display = "none";
+    }
+  }
+}
+
+		// Script to open and close sidebar
+		function w3_open() {
+		  document.getElementById("mySidebar").style.display = "block";
+		  document.getElementById("myOverlay").style.display = "block";
+		}
+
+		function w3_close() {
+		  document.getElementById("mySidebar").style.display = "none";
+		  document.getElementById("myOverlay").style.display = "none";
+		}
+
+		// Modal Image Gallery
+		function onClick(element) {
+		  document.getElementById("img01").src = element.src;
+		  document.getElementById("modal01").style.display = "block";
+		  var captionText = document.getElementById("caption");
+		  captionText.innerHTML = element.alt;
+		}
+
+		</script>
+
+</body>
+</html>
